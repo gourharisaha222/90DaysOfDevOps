@@ -98,10 +98,9 @@ Linux padhna bhi ek process hai
 3. Sirf commands seekhna linux seekhna nahi hai
 
 
-How Linux OS Works
+# How Linux OS Works
 
-Power On -> BIOS (Motherboard which loads the Hardware) -> GNU GRUB -> Linux Kernel ko load kar do -> Ubuntu(Or sny linux os) Loading... -> init process / systemd PID 1 -> 
-systemctl start nginx/ systemctl start docker/ systemctl start ssh/ systemctl status docker/ systemctl status ssh
+Power On -> BIOS (Basic Input/Output System)(Motherboard which loads the Hardware) -> GNU GRUB (Grand Unified Bootloader)-> Linux Kernel ko load kar do -> Ubuntu(Or sny linux os) Loading... -> init process / systemd PID 1 -> systemctl start nginx/ systemctl start docker/ systemctl start ssh/ systemctl status docker/ systemctl status ssh
 
 cp SRC DEST
 cp -> bin -> c prog -> Comp Lang
